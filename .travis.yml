@@ -9,10 +9,9 @@ branches:
     - master
 
 before_script:
-  - npm install -g @angular/cli
+  - npm install -g @angular/cli --verbose
 
 script:
-  - cd mbr-app
   - ng build --prod
 
 
